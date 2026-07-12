@@ -1,0 +1,61 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+*.secrets
+*.token
+*.credentials
+secrets/
+credentials/
+
+# Private keys and certificates
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.crt
+*.csr
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Local runtime state and databases
+accounts.db
+*.db
+*.sqlite
+*.sqlite3
+memory/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# OS and editor metadata
+.DS_Store
+.idea/
+.vscode/
